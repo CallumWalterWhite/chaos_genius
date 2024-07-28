@@ -6,7 +6,7 @@ pyparsing==3.0.9
 python-dateutil==2.8.2
 pytz==2022.2.1
 PyJWT==2.4.0
-PyYAML==6.0
+PyYAML==6.0.1
 pyOpenSSL==21.0.0
 future==0.18.2
 bcrypt==3.2.2
@@ -18,7 +18,7 @@ tqdm==4.64.0
 tenacity==8.0.1
 six==1.16.0
 setuptools-git==1.2
-scipy==1.8.1
+scipy==1.14.0
 fsspec==2022.8.2
 s3fs==2022.8.2
 PyHive==0.6.5
@@ -36,13 +36,13 @@ redis==4.3.4
 # Database
 Flask-SQLAlchemy==2.5.1
 SQLAlchemy==1.4.27
-psycopg2-binary==2.9.3
-PyMySQL==1.0.2
+psycopg2-binary==2.9.9
+PyMySQL==1.1.1
 # revert below once this is merged: https://github.com/googleapis/python-bigquery-sqlalchemy/pull/479
 # sqlalchemy-bigquery==1.4.4
 git+https://github.com/googleapis/python-bigquery-sqlalchemy.git@refs/pull/479/head
 snowflake-sqlalchemy==1.4.1
-snowflake-connector-python[pandas]==2.7.12
+snowflake-connector-python[pandas]==3.11.0
 sqlalchemy-redshift==0.8.11
 # For apache druid
 pydruid[sqlalchemy]==0.6.3
@@ -58,7 +58,7 @@ Flask-Migrate==3.1.0
 slack-sdk==3.18.3
 
 # Data Analysis
-matplotlib==3.4.2
+matplotlib==3.9.1
 numpy==1.23.3
 numpyencoder==0.3.0
 pandas==1.4.4
@@ -84,7 +84,7 @@ Flask-Bcrypt==1.0.1
 cryptography==36.0.2
 
 # Caching
-Flask-Caching==1.11.1
+Flask-Caching
 
 # Debug toolbar
 # Flask-DebugToolbar==0.11.0

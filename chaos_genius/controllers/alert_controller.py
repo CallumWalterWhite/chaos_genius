@@ -3,7 +3,7 @@
 import datetime
 from typing import Any, Dict, List, Literal, Optional, Sequence, Tuple, overload
 
-from flask_sqlalchemy import Pagination
+from flask_sqlalchemy.pagination import Pagination
 from sqlalchemy import delete
 
 from chaos_genius.databases.models.alert_model import Alert

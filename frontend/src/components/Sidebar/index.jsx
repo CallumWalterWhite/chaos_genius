@@ -89,15 +89,6 @@ const Sidebar = () => {
               <span>Alerts</span>
             </Link>
           </li>
-          <li className="slack-link">
-            <a
-              href="https://join.slack.com/t/chaosgenius/shared_invite/zt-140042uac-rrm~xbx9o_aydi6PTmp_Mg"
-              target="_blank"
-              rel="noopener noreferrer">
-              <img src={slacklink} alt="Slack" />
-              <span>Troubleshoot</span>
-            </a>
-          </li>
         </ul>
       </div>
       <ul>
